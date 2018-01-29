@@ -2,7 +2,7 @@
 
 assert(process.env.MEETUP_KEY, 'MEETUP_KEY variable isn\'t set on enviroment (use \'set \'MEETUP_KEY=key\'\' on Windows)');
 
-var meetup = require('../lib/meetup')({
+var meetup = require('meetup-api')({
     key: process.env.MEETUP_KEY
 });
 

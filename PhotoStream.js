@@ -1,4 +1,4 @@
-var meetup = require('../lib/meetup')(),
+var meetup = require('meetup-api')(),
 	count = 1;
 
 var ws = meetup.getStreamPhotos()

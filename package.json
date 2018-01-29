@@ -1,0 +1,31 @@
+{
+  "name": "manage-meetups",
+  "description": "easy way to manage meetups",
+  "version": "1.0.0",
+  "keywords": [
+    "meetup",
+    "api",
+    "node.js",
+    "node"
+  ],
+  "author": {
+    "name": "Raj Kiran Gade",
+    "email": "rajkiran.gade@gmail.com",
+    "url": "https://github.com/rkgade"
+  },
+  "bugs": {
+    "url": "https://github.com/rk-projects/manage-meetups/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rk-projects/manage-meetups.git"
+  },
+  "license": "GPL-3.0",
+  "engine-strict": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "meetup-api": "1.4"
+  }
+}
