@@ -22,6 +22,9 @@ request('https://api.meetup.com/find/upcoming_events?key=31662917176f14578223919
 			request('https://api.meetup.com/fosscafe/events/'+listofEventIDs[j]+'/comments?key=31662917176f1457822391934795268&group_url_name=fosscafe&sign=true',function(error,response,bodyComments){
 			if(!error && response.statusCode == 200)
 			{
+				bodyComments = JSON.parse(bodyComments);
+				//bodyComments[0].comment
+				
 				console.log(bodyComments);
 			}
 			else
